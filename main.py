@@ -26,7 +26,7 @@ break_2 = input("Are you ready to continue? (Guess what it's gonna be yes anyway
 #gets chosen day
 chosen_day = int(input("Pick a day, any day (1 - 365) " ))
 
-#finds out what month and subtracts previous days, this is a pretty lengthy and confusing process but it works
+#finds out what month and subtracts previous days, this is a pretty lengthy and confusing process but it works by finding the month by using modified ranges and then subtracts all previous days so that it starts at day 1, leaving you with the remainder being the day of the date
 
 #January
 if chosen_day > 0 and chosen_day <= 31 :
@@ -95,7 +95,7 @@ for i in range(0, rows + 1):
         print(j, end=" ")
     print()
 
-
+#same comments as before except I now ask for a number
 row_input = int(input("Pick a max number"))
 
 for i in range(0, row_input + 1):
