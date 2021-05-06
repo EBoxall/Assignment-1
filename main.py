@@ -105,3 +105,28 @@ for i in range(0, row_input + 1):
 
 break_4 = input("BONUS QUESTION TIME")
 
+#asks a number
+day_num = int(input("Pick a number 1 - 365... again ", ))
+
+#the remainder will tell you the number that is the order, minus sunday which = 0
+
+if day_num % 7 == 0:
+  print("Congrats! it's Sunday funday")
+elif day_num % 7 == 6:
+  print("Congrats! it's Saturday, enjoy you're weekend")
+elif day_num % 7 == 5:
+  print("Congrats! It's friday! I'm pretty sure there's a song about this")
+elif day_num % 7 == 4:
+  print("Eh I guess Thusday is ok")
+elif day_num % 7 == 3:
+  print("Wednesday, smack in the middle")
+elif day_num % 7 == 2:
+  print("Tuesday or Chooseday if you're weird")
+elif day_num % 7 == 1:
+  print("EVERYONE HATES MONDAYS")
+
+
+
+
+
+
