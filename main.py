@@ -85,3 +85,10 @@ else:
 #break
 break_3 = input("Ready to continue (I think you know the drill) ")
 
+#its the same as my next one, but it will just have an input instead
+rows = 5
+
+for i in range(0, rows + 1):
+    for j in range(rows, 0 + i, -1):
+        print(j, end=' ')
+    print()
