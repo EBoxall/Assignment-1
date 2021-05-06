@@ -88,7 +88,20 @@ break_3 = input("Ready to continue (I think you know the drill) ")
 #its the same as my next one, but it will just have an input instead
 rows = 5
 
+#creates that many rows
 for i in range(0, rows + 1):
+  #creates that many colunmns
     for j in range(rows, 0 + i, -1):
-        print(j, end=' ')
+        print(j, end=" ")
     print()
+
+
+row_input = int(input("Pick a max number"))
+
+for i in range(0, row_input + 1):
+    for j in range(row_input , 0 + i, -1):
+        print(j, end=" ")
+    print()
+
+break_4 = input("BONUS QUESTION TIME")
+
